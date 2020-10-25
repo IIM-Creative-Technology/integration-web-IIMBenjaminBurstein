@@ -1,0 +1,693 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+header{
+	position: relative;
+	color: white;
+	padding-bottom: 80px;
+	width: 100%;
+    background : linear-gradient(to right, #352765, #2f2359 );
+}
+
+
+header nav{
+	display: flex;
+	align-items: center;
+	padding-top: 36px;
+	font-family: 'Popins', serif;
+	font-size: 20px;
+	justify-content: space-around;
+}
+header nav ul{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav a:hover{
+	border-bottom : solid white 1px;
+}
+header nav ul li{
+	padding: 10px 34px;
+	display: flex;
+	
+}
+
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+header section{
+	display: flex;
+}
+header article {
+	margin-top: 240px;
+	margin-left: 200px;
+	font-family: 'Poppins', sans-serif;
+}
+header article h2{
+	font-size: 46px;
+	font-weight: 800;
+}
+header article p{
+	font-size: 16px;
+}
+header section{
+	
+	height: 700px;
+	background-image: url("../img/header.png");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: right;
+}
+.arrowheader{
+position: absolute;
+left: 50%;
+
+}
+header button{
+  width: 170px;
+  height: 44px;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  background-color: #bf3676;	
+}
+/* Main*/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/* Main*/
+main{
+	padding-top: 50px;
+	width: 100%;
+}
+.main1{
+	background-image: url(/img/background.png);
+}
+.main2{
+	margin-left: 110px;
+	margin-top: 62px;
+}
+.mainButton{
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	margin-bottom: 105px ;
+}
+.Forme-2{
+	width: 17.2%;
+	height: 2px;
+	background-color: #bf3676;
+	margin-top: 40px;
+  }
+  .Forme-3{
+	width: 17.2%;
+	height: 2px;
+	background-color: white;
+  }
+.mainTitle{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-flow: column wrap;
+}
+.mainViolet{
+	width: 100%;
+	padding-bottom: 50px;;
+	margin-top: 70px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #3d2d73;
+	background-image: url("../img/paris-personnalises.png");
+}
+.violetTitle{
+	width: 100%;
+	margin-top: 70px;
+	display: flex;
+	align-items: center;
+	flex-flow: column wrap;
+	
+}
+.violetContainer{
+	display: flex;
+	align-items: center;
+}
+.mainArticle{
+	margin-top: 100px;
+	width: 75.2%;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-left: 182px;
+	display: flex;
+}
+.article{
+	width: 36.2%;
+	display: flex;
+	margin-bottom: 100px;
+}
+.article2{
+	order:1
+}
+.article4{
+	order: 1;
+}
+.contenu{
+	margin-left: 30px;
+}
+.paris{
+	overflow: hidden;
+	max-width: 85%; 
+	display: flex;
+	flex-flow: row;
+	margin: 65px auto ;
+	justify-content: flex-start;
+}
+
+.topchef{
+	margin-left: 100px ;
+	margin: auto;
+	display: flex;
+	width: 100%;
+	box-shadow: 1px 18px 15.5px 1px rgba(98, 98, 98, 0.19);
+}
+.topchef img{
+	height: 100%;
+	width: auto;
+}
+.categorie{
+	display: flex;
+}
+.divertissement{
+	border-radius: 50px;
+	background-color: #bf3676;
+	color: white;
+	display: flex;
+	width: 60%;
+	justify-content: center;
+	margin-left: 10px;
+}
+.tv{
+	color: white;
+	border-radius: 50px;
+	background-color: #bf3676;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+.groupe{
+	margin-top: 15px;
+	display: flex;
+}
+.groupe p{
+	margin-top: 10px;
+}
+.groupe img:nth-child(2){
+	margin-left: -45px;
+  }
+  .topchefinfo{
+	 margin: auto;
+  }
+  .violetLeft{
+	  margin-left: 15%;
+	  margin-top: 100px;
+	  display: flex;
+	  max-width: 30%;
+	  flex-flow: row wrap;
+	  justify-content: flex-start;
+}
+.point i{
+	position: absolute;
+	font-size: 40px;
+	color: white;
+	z-index: 1;
+}
+#un{
+	margin-left: 100% !important ;
+}
+.point p{
+	position: relative;
+	z-index: 2;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 50%;
+}
+.bulle{
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 100%;
+}
+.bulle h3{
+	max-width: 85%;
+	margin-left:10%;
+}
+.violetRight{
+	margin-left: 10%;
+}
+/*Zeplin class*/
+.Un-pari-un-gage-et-cest-parti-{
+	width: 628px;
+	height: 45px;
+	font-family: Poppins;
+	font-size: 40.5px;
+	font-weight: bold;
+	line-height: 0.52;
+	text-align: left;
+	color: #bf3676;
+	
+  }
+  .Sries-divertissement-sports-Choissisez-parmi-nos-nombreus{
+	width: 787px;
+	height: 70px;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	color: #222222;
+	margin-top: 62px;
+  }
+  /**********************************/
+    /**********************************/
+  /* Début article */
+  /* artcile1*/
+  .-Suivez-vos-prfrs {
+	width: 275px;
+	height: 23px;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	color: #222222;
+  }
+  .Dans-la-liste-des-nombreuses-thmatiques-suivez-celles-qui-vou {
+	width: 441px;
+	height: 64px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.56;
+	letter-spacing: normal;
+	text-align: left;
+	color: #222222;
+  }
+   /**********************************/
+    /**********************************/
+  /* artcile2*/
+ 
+  .-Lancer-un-sondage {
+	width: 250px;
+	height: 22px;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	color: #222222;
+  }
+  .Si-un-sondage-vous-intrresse-defiez-votre-groupe-damis-Par {
+	width: 435px;
+	height: 118px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.56;
+	text-align: left;
+	color: #222222;
+  }
+  /**********************************/
+    /**********************************/
+  /* artcile3*/
+  .-En-prsentiel-ou-distance-covid {
+	width: 450px;
+	height: 23px;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	color: #222222;
+  }
+  .Voyez-lvolution-en-direct-des-probabilits-de-gagner-sur-chaq {
+	width: 433px;
+	height: 68px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.56;
+	text-align: left;
+	color: #222222;
+  }
+  /**********************************/
+    /**********************************/
+  /* artcile4*/
+  .-Comparez-vos-scores {
+	width: 300px;
+	height: 21px;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	color: #222222;
+  }
+  .Lvnement-est-fini-il-est-temps-de-voir-le-rsultat-final-et {
+	width: 435px;
+	height: 114px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.56;
+	text-align: left;
+	color: #222222;
+  }
+  /**********************************/
+    /**********************************/
+  /*FIN article*/
+  .-petition {
+	width: 47px;
+	height: 57px;
+  }
+  .Defier-vos-amis-gratuitement- {
+	width: 291px;
+	height: 21px;
+	font-family: Poppins;
+	font-size: 19px;
+	font-weight: 500;
+	text-align: center;
+	color: #ffffff;
+  }
+  .Rectangle-arrondi-1 {
+	width: 367px;
+	height: 55px;
+	border-radius: 27.5px;
+	background-color: #bf3676;
+  }
+  .Dcouvrez-les-paris-venir- {
+	width: 574px;
+	height: 45px;
+	font-family: Poppins;
+	font-size: 40.5px;
+	font-weight: bold;
+	line-height: 0.52;
+	text-align: left;
+	color: #bf3676;
+	
+  }
+  .Ellipse-2 {
+	width: 10px;
+	height: 10px;
+	background-color: #bf3676;
+  }
+  .main1 i{
+	font-size: 10px; 
+	margin-left: 17px; 
+	color:#bf3676 !important;
+  }
+  .fa-grey{
+	color:grey ;
+	font-size: 30px; 
+  }
+  .Objectif-Top-Chef {
+	width: 210px;
+	height: 23px;
+	font-family: Poppins;
+	font-size: 18.5px;
+	font-weight: 600;
+	text-align: left;
+	color: #222222;
+  }
+  .Finale-de-la-semaine {
+	width: 166px;
+	height: 14px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.53;
+	text-align: left;
+	margin-top: 10px;
+	color: #222222;
+  }
+  .Ces-groupes-y-participent {
+	width: 206px;
+	height: 17px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.53;
+	text-align: left;
+	color: #747474;
+  }
+  .Ce-nest-pas-UX-friendly-de-faire-un-step-by-step-qui-part-vers {
+	width: 700px;
+	height: 0px;
+	font-family: Poppins;
+	position: absolute;
+	left: 74.4%;
+	top: 158%;
+	font-size: 5;
+	text-align: center;
+	color: #929292;
+	transform: rotate(90deg);
+	
+  }
+  .fa-slide {
+	  display: flex;
+	  margin-top: 65px;
+	  margin-left: 45%;
+
+  }
+ .fa-slide i{
+	font-size: 20px;
+	color: grey;
+	justify-content: center;
+ }
+ .Envie-de-crer-des-paris-personnaliss- {
+	
+	display: flex;
+	font-family: Poppins;
+	font-size: 40.5px;
+	font-weight: bold;
+	line-height: 0.52;
+	margin: 75px auto;
+	color: #ffffff;
+  }
+  .Perosnnaliser-vos-paris- {
+	font-family: Poppins;
+	font-size: 21px;
+	font-weight: 600;
+	text-align: left;
+	color: #ffffff;
+  }
+  .Nouveau- {
+	font-family: Poppins;
+	font-size: 16.5px;
+	font-weight: 600;
+	text-align: left;
+	color: #2f2359;
+	text-align: center;
+	margin: auto;
+  }
+  .Rectangle-arrondi-4 {
+	width: 126px;
+	height: 24px;
+	border-radius: 10px;
+	background-color: #ffffff;
+  }
+  .Grande-nouveaut-de-cette-version-nous-proposons-tous-de-cr {
+	width: 436px;
+	height: 92px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.56;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	margin-top: 40px;
+  }
+  .text-style-1 {
+	font-size: 12px;
+	font-weight: 300;
+	color: #ffffff;
+	width: 436px;
+	height: 92px;
+	font-family: Poppins;
+	line-height: 1.56;
+	text-align: left;
+	color: #ffffff;
+  }  
+
+  .Cration-dun-pari-partir-de-toutes-les-questions-dj-exista {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.56;
+	color: #ffffff;
+  }
+  .Sinscrire-et-profiter-de-toutes-les-fonctionnalits {
+	
+	font-family: Poppins;
+	font-size: 19px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+	margin-top: 50%;
+  }
+  .Rectangle-arrondi-1 {
+	width: 530px;
+	height: 55px;
+	border-radius: 27.5px;
+	background-color: #bf3676;
+	border: none;
+	margin: auto;
+  }
+  .mainViolet button{
+	  display: flex;
+	  justify-content: center;
+	  text-align: center;
+
+  }
+
+.I{
+	display: flex;
+	flex-flow: row wrap;
+}
+.I .i{
+	margin-top: -25px;
+	position: relative;
+}
+.main4{
+	display: flex;
+	
+	width: 100%;
+	
+}
+.gauche{
+	max-width: 100%;
+	margin-top: 100px;
+	margin-left: 10%;
+}
+.gauche img{
+	position: absolute;
+	right: 52%;
+}
+.l-faudrait-tre-vraiment-biais-pour-ne-pas-voir-que-la-droite {
+	width: 70%;
+	font-family: Poppins;
+	font-size: 24px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #222222;
+  }
+  .faon-rendre-accessible-tous-la-tl-ralit-surtout-pour-le {
+	width:80%;
+	font-family: Poppins;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: left;
+	color: #222222;
+  }
+  .i {
+	font-family: Poppins;
+	font-size: 72px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #222222;
+  }
+  .--Phrase-mise-par-une-personne-ayant-perdu-un-sondage-secret-s {
+	width: 80%;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #bbbbbb;
+	margin-top: 5%;
+  }
+  .joueurs {
+	max-width: 50%;
+  }
+  /******* footer ******/
+  footer{
+	  background-image: url("../img/background-footer.png");
+	  padding-bottom: 100px;
+  }
+  ul li{
+	  font-family: Poppins;
+	  text-decoration: none;
+	  list-style: none;
+	  text-transform: none;
+	  color: white;
+  }
+  .logo{
+	  height: 30%;
+	  width: auto;
+	  margin-top: 65px;
+	  margin-left: 10%;
+  }
+  .FooterGauche{
+	  display: flex;
+	  margin-left: 70px;
+  }
+
+.Dcouvrir-Thmes-du-jour-FAQ-Bl {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  
+}
+.Mentions-lgales-Politique-de-confidentialit {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 2.67;
+	text-align: left;
+	color: #ffffff;
+	
+  }
+  .Forme-3 {
+	width: 90%;
+	opacity: 0.35;
+	background-color: #ffffff;
+	display: flex;
+	margin: auto;
+  }
+  .reseaux{
+	  display: flex;
+	  justify-content: flex-end;
+	  margin-right: 50px;
+  }
+  .alexis{
+	  display: flex;
+	  margin: auto;
+	  max-width: 50%;
+	  text-align:center;
+	  flex-direction: row-reverse ;
+  }
